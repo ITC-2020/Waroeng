@@ -1,0 +1,5 @@
+aturan git hub waroeng 
+
+- bikin branch pribadi (FE/BE/PM_nama)
+- sebelum melakukan perubahan wajib pull dari master
+- untuk push dilakukan di branch masing masing lalu melakukan pull request
