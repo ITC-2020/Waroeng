@@ -1,0 +1,38 @@
+footer {
+    font-size: 15px;
+    background-color: #f7f3f0;
+    color: #BE9C83;
+}
+.top-footer {
+    display: flex;
+    background-color: #f7f3f0;
+    color: #A27755;
+    justify-content: space-between;
+    padding: 50px 0 40px 0;
+}
+.newsletter-offer {
+    flex-basis: 30%;
+}
+.footnote {
+    flex-basis: 50%;
+    color: inherit;
+}
+.footnote table {
+    color: inherit !important;
+    width: 100%;
+}
+.footnote td {
+    padding: 5px 15px;
+    font-size: 13px;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A27755;
+    color: white;
+    font-size: 11px;
+    padding: 10px 30px;
+}
+.social-media a{
+    padding: 5px;
+}
