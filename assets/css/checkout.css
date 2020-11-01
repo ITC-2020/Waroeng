@@ -1,0 +1,66 @@
+.checkout-box {
+  background-color: #f7f3f0;
+  box-shadow: 2px 3px 6px #00000029;
+}
+.item-checkout {
+  flex-basis: 60%;
+  border-right: 3px solid #707070;
+  font-size: 14px;
+}
+.checkout-product {
+  flex-basis: 50%;
+}
+.checkout-quantity {
+  flex-basis: 30%;
+}
+.checkout-price {
+  flex-basis: 20%;
+}
+.checkout-product img {
+  width: 40px;
+  border: 1px solid #c6c6c5;
+  background-color: white;
+  margin-right: 15px;
+}
+.address-checkout {
+  flex-basis: 40%;
+}
+.address-checkout li {
+  list-style: none;
+}
+
+/* QUABBTITY BUTTON */
+/* .checkout-quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+} */
+.checkout-quantity input {
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid #c8c8c8;
+  color: #a27755;
+}
+
+button[class*="btn-quantity"] {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #a27755;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+/* .minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+} */
+
+button:focus,
+input:focus {
+  outline: 0;
+}
