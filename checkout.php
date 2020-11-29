@@ -120,7 +120,7 @@
                             </ul>
                             <ul class="p-0">
                                 <li><i class="fa fa-tags"> </i><input type="text" class="ml-3 " placeholder="Add promo code"> <button href="" class="btn btn-brown rounded-0">Submit</button></li>
-                                <small><i class="text-danger">code no valid !</i></small>
+                                <small><i class="text-danger">invalid code !</i></small>
                             </ul>
                         </div> <!-- end address-checkout -->
                     </div> <!-- end flex-row -->
@@ -134,7 +134,7 @@
     </main>
 
     <footer>
-        <?php include "./assets/inc/footer.php" ?>
+        <?php include "./assets/inc/footer.html" ?>
     </footer>
 
     <script src="./assets/js/nav.js" type="text/javascript"></script>
