@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./assets/css/checkout.css">
     <link rel="stylesheet" href="./assets/css/fav.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <title>WAROENG</title>
 </head>
 
