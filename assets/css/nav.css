@@ -16,6 +16,9 @@ nav {
 .brand {
   flex-basis: 25%;
 }
+.brand img {
+  width: 38px;
+}
 .btn-group {
   flex-basis: 50%;
 }
