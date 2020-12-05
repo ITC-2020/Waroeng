@@ -1,0 +1,172 @@
+/* ALL */
+.far {
+  font-weight: 100 !important;
+}
+.fb-google-icon img {
+  width: 30px;
+}
+
+/* NAV */
+nav {
+  background-color: #f7f3f0;
+  padding: 10px;
+  display: flex;
+  box-shadow: 3px 3px 6px #00000029;
+}
+.brand {
+  flex-basis: 25%;
+}
+.brand img {
+  width: 38px;
+}
+.btn-group {
+  flex-basis: 50%;
+}
+.btn-group button {
+  border: 0.5px solid grey;
+  border-radius: 0px;
+}
+.btn-group input {
+  border-radius: 0;
+  border-top: 0.5px solid #c6c6c5;
+  border-bottom: 0.5px solid #c6c6c5;
+}
+.search {
+  width: 480px;
+}
+.dropdown-category {
+  display: inline-block;
+  position: relative;
+}
+.group-category {
+  display: none;
+  position: absolute;
+  background-color: #f7f3f0;
+  width: max-content;
+  padding: 0.375rem 0.75rem;
+  color: #000;
+  box-shadow: 1px 12px 68px #0000004d;
+  /* max-height: 500px;
+  overflow: auto; */
+}
+.category-content {
+  width: min-content;
+  /* padding: .375rem .75rem; */
+}
+/* .category-content a {
+	display: block;
+} */
+.category-content figure {
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
+.category-content img {
+  width: 60px;
+  margin: 0;
+}
+.sub-category {
+  width: 100%;
+  font-size: 13px;
+  min-width: 200px;
+  max-height: 500px;
+  overflow: auto;
+}
+.sub-category ul {
+  background-color: white;
+}
+.sub-category li {
+  list-style: none;
+  padding: 5px 15px;
+}
+/* .dropdown-category:hover body {
+	background-color: #80808059;
+	z-index: 2;
+} */
+.dropdown-category:hover .group-category {
+  display: block;
+}
+.account-group {
+  flex-basis: 25%;
+  text-align: center !important;
+  position: relative;
+}
+.account-group a:not(.get-session) {
+  padding: 0.375rem 0.75rem;
+  color: #a27755;
+}
+.photo-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+/* LOGIN BOX */
+#modal-login {
+  padding-top: 100px;
+  background-color: #80808059;
+}
+.closeBtn {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.login-box,
+.login-register {
+  margin: auto;
+  width: 400px;
+  background-color: #f7f3f0;
+  border: 1px solid #707070;
+  box-shadow: 1px 12px 68px #0000004d;
+  animation-name: fallBox;
+  animation-duration: 0.3s;
+}
+#pick-level {
+  -webkit-box-shadow: 3px 3px 6px #be9c8329;
+  -moz-box-shadow: 3px 3px 6px #be9c8329;
+  box-shadow: 3px 3px 6px #be9c8329;
+}
+#pick-level .btn {
+  color: #a27755;
+}
+#pick-level .active {
+  background-color: #a27755;
+  color: white;
+}
+@keyframes fallBox {
+  from {
+    margin-top: -700px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+.login-content {
+  padding: 50px;
+}
+.login-form {
+  color: #be9c83;
+}
+.more-login {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: small;
+}
+.another-method-login {
+  text-align: center;
+}
+
+/* REGISTER BOX */
+#modal-register {
+  padding-top: 50px;
+  background-color: #80808059;
+}

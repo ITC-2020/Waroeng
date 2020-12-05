@@ -1,0 +1,8 @@
+aturan git hub waroeng 
+
+- bikin branch pribadi (FE/BE/PM_nama)
+- sebelum melakukan perubahan wajib pull dari master
+- untuk push dilakukan di branch masing masing lalu melakukan pull request
+
+standar kerangka PHP dilihat di standar.php
+gunakan folder yang sudah ada seperti img untuk image, css untuk css, dan js
