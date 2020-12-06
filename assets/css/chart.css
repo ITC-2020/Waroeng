@@ -7,7 +7,15 @@
 }
 
 .item-chart {
-    flex-basis: 70%;
+    flex-basis: 80%;
+}
+
+.head-item {
+    flex-basis: 80%;
+}
+
+.item-in {
+    flex-basis: 80%;
     font-size: 14px;
 }
 
@@ -31,17 +39,12 @@
 }
 
 .discount-chart {
-    flex-basis: 30%;
+    flex-basis: 25%;
 }
 
-
-/* QUABBTITY BUTTON */
-
-
-/* .checkout-quantity {
-padding-top: 20px;
-margin-right: 60px;
-} */
+.img-discount {
+    width: 200px;
+}
 
 .chart-quantity input {
     text-align: center;
@@ -53,6 +56,15 @@ margin-right: 60px;
     color: #a27755;
 }
 
+.total {
+    margin-left: 18%;
+}
+
+.card-total {
+    margin-left: 36%;
+    width: 18rem;
+}
+
 button[class*="btn-quantity"] {
     width: 30px;
     height: 30px;
@@ -62,14 +74,6 @@ button[class*="btn-quantity"] {
     border: none;
     cursor: pointer;
 }
-
-
-/* .minus-btn img {
-  margin-bottom: 3px;
-}
-.plus-btn img {
-  margin-top: 2px;
-} */
 
 button:focus,
 input:focus {
